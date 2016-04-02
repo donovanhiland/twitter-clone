@@ -44,13 +44,6 @@ $(document).ready(function() {
   }
     });
 
-  // textBox.on('click', function() {
-  //   $(this).height(42);
-  //   $(".reply > #tweet-controls").css({
-  //   "display": "block",
-  //   });
-  // });
-
  textBox.on('blur', function() {
    if(!textBox.val()) {
    tweetControls.hide();
