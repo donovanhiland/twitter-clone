@@ -55,7 +55,7 @@
 							<!-- HINT: CSS ":hover" pseudo element -->
 							<div class="tweet-actions">
 								<ul>
-									<li><span class="icon action-reply"></span> Reply</li>
+									<li class="reply-link"><span class="icon action-reply"></span> Reply</li>
 									<li><span class="icon action-retweet"></span> Retweet</li>
 									<li><span class="icon action-favorite"></span> Favorite</li>
 									<li><span class="icon action-more"></span> More</li>
@@ -92,6 +92,11 @@
 							<div class="reply">
 								<img class="avatar" src="img/alagoon.jpg" />
 								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
+
+								<div id="tweet-controls">
+									<div id="char-count">140</div>
+									<button class="button" id="tweet-submit">Reply</button>
+
 							</div>
 						</div>
 					</div><!-- .tweet -->
@@ -104,7 +109,7 @@
 							<p class="tweet-text">“I'm able to speak confidently about a wide range of subjects, so it’s probably hard for most women to follow.” http://onion.com/1aWfKwf </p>
 							<div class="tweet-actions">
 								<ul>
-									<li><span class="icon action-reply"></span> Reply</li>
+									<li class="reply-link"><span class="icon action-reply"></span> Reply</li>
 									<li><span class="icon action-retweet"></span> Retweet</li>
 									<li><span class="icon action-favorite"></span> Favorite</li>
 									<li><span class="icon action-more"></span> More</li>
@@ -132,6 +137,9 @@
 							<div class="reply">
 								<img class="avatar" src="img/alagoon.jpg" />
 								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
+								<div id="tweet-controls">
+									<div id="char-count">140</div>
+									<button class="button" id="tweet-submit">Reply</button>
 							</div>
 						</div>
 					</div><!-- .tweet -->
@@ -144,7 +152,7 @@
 							<p class="tweet-text">It is possible to work with a loved one without ruining the relationship http://s.hbr.org/15FDIri </p>
 							<div class="tweet-actions">
 								<ul>
-									<li><span class="icon action-reply"></span> Reply</li>
+									<li class="reply-link"><span class="icon action-reply"></span> Reply</li>
 									<li><span class="icon action-retweet"></span> Retweet</li>
 									<li><span class="icon action-favorite"></span> Favorite</li>
 									<li><span class="icon action-more"></span> More</li>
@@ -171,12 +179,19 @@
 							</div>
 							<div class="reply">
 								<img class="avatar" src="img/alagoon.jpg" />
+
 								<textarea class="tweet-compose" placeholder="Reply to @mybff"/></textarea>
+								<div id="tweet-controls">
+									<div id="char-count">140</div>
+									<button class="button" id="tweet-submit">Reply</button>
+
 							</div>
 						</div>
 					</div><!-- .tweet -->
 				</div><!-- #stream -->
 			</div><!-- #main -->
 		</div><!-- #page-container -->
+		<script type="text/javascript" src="./js/jquery-2.0.3.min.js"></script>
+		<script type="text/javascript" src="./js/animations.js"></script>
 	</body>
 </html>
