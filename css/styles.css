@@ -135,6 +135,7 @@ body {
 		border-radius: 3px;
 		margin-bottom: 1em;
 		box-sizing: border-box;
+		color: red;
 	}
 		#tweet-controls {
 			text-align: right;

@@ -3,6 +3,7 @@ $(document).ready(function() {
   var textBox = $('.tweet-compose');
   var tweetControls = $('#tweet-controls');
 
+
   tweetControls.hide();
   $(".reply").hide();
 
@@ -41,7 +42,7 @@ $(document).ready(function() {
     console.log('hit');
     if(!$(this).val()){
     $(this).parent(".reply").css("display", "none");
-  }
+    }
     });
 
  textBox.on('blur', function() {
